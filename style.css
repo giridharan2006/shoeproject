@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    align-items: center;/*Vertical*/
+    justify-content: center;/*Horizontal*/
+    /*Since both align-itmes and justify-content are used,so it will come to center*/
+    font-family: Poppins;
+}
+ 
+.container{
+    /**background-color: red;**/
+    width:50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.card{
+    background: white;
+    height: 80vh;
+    width:65%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px grey, 0px 20px 50px grey;
+    transform-style: preserve-3d;
+}
+ 
+.circle{
+    height: 300px;
+    width:300px;    
+    background: linear-gradient(to right, rgb(231, 60, 60), rgb(12, 8, 236));
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+ 
+}
+img{
+    width: 25rem;
+    z-index: 2;
+ 
+}
+.sneaker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:4rem;
+}
+.heading{
+    font-size: 4rem ;
+}
+.info{
+    padding: 2rem 2rem;
+}
+.info h3{
+    font-size: 1.5rem;
+    color:grey;
+    font-weight:lighter ;
+}
+.sizes{
+    display: flex;
+    justify-content: space-between;
+}
+.sizes button{
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    border: none;
+    background: none;
+    box-shadow: 0px 10x 20px grey;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+}
+.purchase button{
+    width: 100%;
+    padding: 1rem 0rem;
+    border-radius: 30px;
+    border: none;
+    background:rgb(236, 33, 33);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.purchase{
+    padding: 0.5rem 1rem;
+}
